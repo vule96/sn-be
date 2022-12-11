@@ -12,7 +12,7 @@ import (
 )
 
 type Posts struct {
-	ID        uuid.NullUUID `json:"id"`
+	ID        uuid.UUID 	`json:"id"`
 	UserID    uuid.UUID     `json:"user_id"`
 	Content   string        `json:"content"`
 	IsActive  bool          `json:"is_active"`
